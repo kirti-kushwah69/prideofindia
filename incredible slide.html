@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <style>
+    	.banner{
+    		height: 650px;
+    	}
+    	.p{
+	        margin-top: -332px;
+	        font-family: monospace;
+            margin-bottom: 1rem;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+            font-size: 64px;
+            text-shadow: 5px 4px 6px dodgerblue;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+
+	<!--slider start--->
+	<div class="carousel slide" data-bs-ride="carousel" id="a">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#a" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#a" data-bs-slide-to="1" ></button>
+            <button type="button" data-bs-target="#a" data-bs-slide-to="2" ></button>
+		</div>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="4000">
+				<img src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,q_auto/v1/filestore/h0ixwvlda4ns5wykojoweer3a8aw_shutterstock_1430024867.jpg" class="w-100 banner" alt="...">
+				<div class="carousel-caption">
+                   <p class="p">pride of gwalior</p>
+                </div><!--carousel-caption-->
+			</div>0
+
+			<div class="carousel-item" data-bs-interval="2000">
+				<img src="https://assets.gqindia.com/photos/60463c3740ec5beed7557286/3:2/w_1620,h_1080,c_limit/Jay%20Vilas%20Palace.jpeg" class="w-100 banner" alt="...">
+			</div>1
+
+			<div class="carousel-item" data-bs-interval="2000">
+				<img src="https://images.thrillophilia.com/image/upload/s--srhJQxbh--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/129/655/original/1536062912_38724006115_751949bcfc_b.jpg.jpg" class="w-100 banner" alt="...">
+			</div>2
+		</div><!--carousel-inner-->
+		
+		<button class="carousel-control-prev" type="button" data-bs-target="#a" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#a" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div><!--carousel slide end-->
+    <!--slider end-->
+
+</body>
+</html>

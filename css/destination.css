@@ -1,0 +1,257 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.navbar{
+	background: #00678029!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+.navbar-nav li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    text-shadow: 2px 4px 4px dodgerblue;
+}
+.navbar-nav li a:hover{
+	color: white;
+}
+.b{
+   	text-align: center;
+}
+.web{
+   	/*width: 120px;*/
+   	color: white;
+   	font-family: monospace;
+   	text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-left: 26px;
+    text-shadow: 2px 4px 4px dodgerblue;
+}
+/*.weblogo{
+	width: 43%;
+}*/
+.ga{
+	color: white;
+	font-family:monospace;
+	font-size: 15px;
+	font-weight: 100;
+	text-transform: capitalize;
+	margin-left: 89px;
+	margin-top: -8px;
+	text-shadow: 3px 3px 2px dodgerblue;
+}
+.c{
+	margin-top: -10px;
+	font-family: monospace;
+}
+@media(max-width: 768px){
+	.d{
+		margin-right: 4px;
+	}
+	.navbar{
+		background: #006780db!important;
+	}
+	.ga{
+		margin-left: 80px!important;
+	}
+	.web{
+		font-size: 24px!important;
+	}
+	.bl{
+		font-size: 13px!important;
+	}
+	/*.mad{
+		padding-left: 221px!important;
+		font-size: 24px!important;
+	}*/
+}
+.des{
+	background:#0067804f;
+	width: 100%;
+	height: 100px;
+}
+.de{
+	font-size: 45px;
+	text-shadow: 3px 4px 4px dodgerblue;
+    color: goldenrod;
+    padding-top: 150px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner{
+	background: url(https://www.mptourism.com/images/explore-banner.png);
+	width: 100%;
+	height: 400px;
+	margin-top: -99px;
+	background-position: center;
+	background-size: cover;
+}
+.mad{
+	/*margin-top: 20px;*/
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px 4px dodgerblue;
+    color: darkorange;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+.fall{
+	font-size: 45px;
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px 4px dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.str{
+	color: #006780;
+    font-family: monospace;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 19px;
+}
+.ig{
+	width: 100%;
+	margin-top: 15px;
+    height: 160px;
+}
+.fall1{
+	font-size: 45px;
+    font-family: monospace;
+    margin-top: 15px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px 4px dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.str1{
+	color: #006780;
+    font-family: monospace;
+    text-align: justify;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.ig1{
+	width: 100%;
+	margin-top: 15px;
+    height: 160px;
+}
+.mad1{
+	/*margin-top: 20px;*/
+    font-family: monospace;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px 4px dodgerblue;
+    color: darkorange;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+.mainfooter{
+	background: #006780;
+	width: 100%;
+	/*height: 390px;*/
+}
+
+.mtop{
+	margin-top: 60px;
+}
+.in{
+	text-align: justify;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    font-family: monospace;
+    line-height: 29px;
+    padding: 8px;
+    text-shadow: 2px 3px 4px dodgerblue;
+}
+
+.text{
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+	letter-spacing: 2px;
+	text-shadow: 2px 3px 4px dodgerblue;
+}
+.strg{
+	color: white;
+    font-weight: 400;
+    font-family: monospace;
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 4px dodgerblue;
+}
+.p3{
+	color: white;
+	font-size: 16px;
+	font-weight: 100;
+	font-family: monospace;
+	letter-spacing: 3px;
+	text-transform: capitalize;
+	padding: 8px;
+	text-shadow: 2px 3px 4px dodgerblue;
+}
+.ab{
+	text-decoration: none;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+    font-family: monospace;
+    text-shadow: 2px 3px 4px dodgerblue;
+}
+.ab:hover{
+	color: white;
+}
+.ic{
+	color: white;
+	font-size: 33px;
+    margin-right: 28px;
+    text-shadow: 2px 3px 4px dodgerblue;
+}
+.ic:hover{
+	color: white;
+}
+.web1{
+	color: white;
+   	font-family: monospace;
+   	text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 29px;
+    font-weight: 500;
+    text-shadow: 2px 4px 4px dodgerblue;
+}
+.footer{
+	background-color:#006780 ;
+	padding-top: 27px;
+	padding-bottom: 17px;
+}
+.bl{
+	font-size: 16px;
+    color: white;
+    line-height: 28px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.bl1{
+	color: #fff;
+	font-family: monospace;
+	text-decoration: none;
+}
+.bl1:hover{
+    color: white;
+}
